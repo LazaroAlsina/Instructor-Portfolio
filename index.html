@@ -1,126 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Lazaro's Portfolio.</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="badger.jpg" type="image/icon type">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:700"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="badger.jpg" type="image/icon type" />
+  </head>
+  <body>
     <div id="loading">
-        <div id="spinner"></div>
+      <div id="spinner"></div>
     </div>
-    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-    <div id="title">Lazaro Alsina Jr.</div><br>
-    <div id="links">
+    <div id="header" class="animated slideInDown" style="animation-delay: 1.8s">
+      <div id="title">Lazaro Alsina Jr.</div>
+      <br />
+      <div id="links">
         <a href="#skills">Skills</a>
-        <a href="#work" style="margin:0px 60px;">Works</a>
+        <a href="#work" style="margin: 0px 60px">Works</a>
         <a href="#contact">Contact</a>
         <a href="./Lazaro-Resume.pdf" target="_blank">Resume</a>
-    </div>
+      </div>
     </div>
 
     <center>
-    <div id="middle">
-        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
-            Welcome to my Portfolio.
-            <br>
-            <button class="btn_one" onclick="window.location = 'mailto:lazaroalsina@gmail.com'">Hire me</button>
+      <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay: 1.8s">
+          Welcome to my Portfolio.
+          <br />
+          <button
+            class="btn_one"
+            onclick="window.location = 'mailto:lazaroalsina@gmail.com'"
+          >
+            Hire me
+          </button>
         </div>
-    </div>
+      </div>
     </center>
 
     <div id="portfolio">
-             <div id="skills">
-                 <h1>Skills.</h1>   
-                 <div>
-                        <p>
-                            I am an educator teaching I.T, DevOps, and Programming(Front/Back-end) for four years, who loves to help the next generations of exceptional students in the tech sector. Building and designing lessons with labs to ensure students get particle experience in the field with mentoring & tutoring.
-                        </p>
-                        <p>
-                            These labs are built using Python, allowing students to practice with C, C++, and C# Python, JavaScript, Java, AWS, Azure, and GCP environments. These labs can automatically grade students' performances and give immediate feedback. Professors can also get a detailed report on how the students did as a group or as individuals so proper decisions can be made.
-                        </p>
-                        <p>
-                            As an instructor with over 1000+ students, I ensure each cohort receives the passion and attention they deserve to succeed in their chosen field. I used my expertise to teach students individually and as a group to encourage teamwork. A common issue students encounter is needing to learn soft skills like communication, collaboration, and future planning. We can help the students improve these essential skills with highly interactive group assessments and custom build labs.
-                        </p>
-                    </div> 
-                </div>
-                
-                <div id="work">
-                    <h1>Works.</h1>
-                    
-                    <div class="project">
-                        <h2>Cloud Operations MVP </h2>
-                        <div>
-                            <p>I worked on Generation Global team to make a Cloud Engineer Program for all Generation districts. This program is designed to help teach new students how to use GCP and use their boost skill platform, including how to use Linux, Terraform, Ansible, and more. By the end of the program, students will be qualified Google Cloud Digital Leader & Associate Cloud Engineer.</p>
-                            <p>This program had over 60+ lessons, in which I was responsible for documentation, lesson planning, instructions, material, quality of assurance, reviews, PowerSlides, Draw.Io diagrams, Lab setups, and more. </p>
-                            <p>The program's mock cohort started in the UK, which was an incredible success and will be a future model for teaching students how to interact with the cloud thanks to our partnership with google.</p>
-                        </div>
-                        <button onclick="window.location.href='//uk.generation.org/london/googlecloud/';" class="btn_one">Visit Project Google Cloud</button>
-                       
-                    </div>
-                    
-                    <div class="project">
-                        <h2>Linux Operations MVP</h2>
-                        <div>
-                            <p>Build powerful lessons for Linux Operations, part of TIFC, a design concept in which we make lesson plans that can be easily swapped in or out of other programs when needed. This ensures students from DevOps, Cloud Engineering, Software Development, and other similar programs swap in the required class for their curriculum needs. </p>
-                            <p>This design is custom-made for Generation, including art assets, design principles, and well-documented lesson plans to ensure all instructors can conduct Linux in their curriculum. </p>
-                            <p>We ensure the success of this program with our team leader James Belchamber, our BSM(Behavior skill Mindset), Elise Guimaraes, and intern Ted Logan.</p>
-                        </div>
-                        <button onclick="window.location.href='//uk.generation.org/london/aws-restart/';" class="btn_one">Visit Project AWS-restart</button>
-  
-                    </div>
-                    
-                    <div class="project">
-                        <h2>JWD/JFS Software Development</h2>
-                        <div>
-                            <p>Help build extra curriculum for the current JWD(Junior web Developer) & JFS(Java Full Stack) programs by making Quizizz, an online tool to help make tests, and many Github repositories that give more activities for the students like:</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Java</li>
-                                <li>Github</li>
-                                <li>Git</li>
-                                <li>Etc</li>
-                            </ul>
-                            <p>This extra curriculum was designed by I (Lazaro), Anderson, and Zoe to help students have more projects under their belt and give them more experience.</p>
-                        </div>
-                        <button onclick="window.location.href='//github.com/LazaroAlsina/JWD-JFS-Collection';" class="btn_one">Visit Project JWD-JFS Collection on Github</button>
-                        <button onclick="window.location.href='//github.com/LazaroAlsina/JWD-Final-Project';" class="btn_two">Visit Project JWD-Final-Project on Github</button>
-                        <button onclick="window.location.href='//quizizz.com/collection/63926179551a5f001e38c5a8?source=collection_share';" class="btn_one">Visit Project Quiziz for Lesson plans and tests</button>
-                        <button onclick="window.location.href='//github.com/LazaroAlsina/GitHub_Activity';" class="btn_two">Visit Project GitHub_Activity on Github</button>
-                    </div>
-                    
-                </div>
-                
-                <div id="contact">
-                    <h1>Contact.</h1> 
-                    <form>
-                        <input type="text" placeholder="Name" required>
-                        <input type="email" placeholder="Email" required><br>
-                        <textarea placeholder="Your message" required rows="5"></textarea><br>
-                        <button class="btn_one">Send</button>
-                    </form> 
-                    <div id="details">
-                    <a class="btn_social" href="https://www.linkedin.com/in/lazaroalsina/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="btn_social" href="https://github.com/LazaroAlsina" target="_blank"><i class="fab fa-github"></i></a>
-                    <a class="btn_social" href="https://www.google.com/search?q=Lazaro Alsina jr linkedin" target="_blank"><i class="fab fa-google"></i></a>
-                    <a href="https://www.linkedin.com/groups/14062247/" target="_blank"><img id="badger" src="./badger.jpg" alt="spacy badger"></a>
-                </div>   
-            </div>
+      <div id="skills">
+        <h1>Skills.</h1>
+        <div>
+          <p>
+            I am an educator teaching I.T, DevOps, and
+            Programming(Front/Back-end) for four years, who loves to help the
+            next generations of exceptional students in the tech sector.
+            Building and designing lessons with labs to ensure students get
+            particle experience in the field with mentoring & tutoring.
+          </p>
+          <p>
+            These labs are built using Python, allowing students to practice
+            with C, C++, and C# Python, JavaScript, Java, AWS, Azure, and GCP
+            environments. These labs can automatically grade students'
+            performances and give immediate feedback. Professors can also get a
+            detailed report on how the students did as a group or as individuals
+            so proper decisions can be made.
+          </p>
+          <p>
+            As an instructor with over 1000+ students, I ensure each cohort
+            receives the passion and attention they deserve to succeed in their
+            chosen field. I used my expertise to teach students individually and
+            as a group to encourage teamwork. A common issue students encounter
+            is needing to learn soft skills like communication, collaboration,
+            and future planning. We can help the students improve these
+            essential skills with highly interactive group assessments and
+            custom build labs.
+          </p>
         </div>
-        <div id="footer">
-            <br>
-            Made on earth by a Honey Badger <br><br> <a href="https://www.linkedin.com/groups/14062247/">Spacy Badgers</a>
+      </div>
+
+      <div id="work">
+        <h1>Works.</h1>
+
+        <div class="project">
+          <h2>Cloud Operations MVP</h2>
+          <div>
+            <p>
+              I worked on Generation Global team to make a Cloud Engineer
+              Program for all Generation districts. This program is designed to
+              help teach new students how to use GCP and use their boost skill
+              platform, including how to use Linux, Terraform, Ansible, and
+              more. By the end of the program, students will be qualified Google
+              Cloud Digital Leader & Associate Cloud Engineer.
+            </p>
+            <p>
+              This program had over 60+ lessons, in which I was responsible for
+              documentation, lesson planning, instructions, material, quality of
+              assurance, reviews, PowerSlides, Draw.Io diagrams, Lab setups, and
+              more.
+            </p>
+            <p>
+              The program's mock cohort started in the UK, which was an
+              incredible success and will be a future model for teaching
+              students how to interact with the cloud thanks to our partnership
+              with google.
+            </p>
+          </div>
+          <button
+            onclick="window.location.href='//uk.generation.org/london/googlecloud/';"
+            class="btn_one"
+          >
+            Visit Project Google Cloud
+          </button>
         </div>
-        <script src="index.js" type="text/javascript"></script>
-    </body>
-    </html>
-    
+
+        <div class="project">
+          <h2>Linux Operations MVP</h2>
+          <div>
+            <p>
+              Build powerful lessons for Linux Operations, part of TIFC, a
+              design concept in which we make lesson plans that can be easily
+              swapped in or out of other programs when needed. This ensures
+              students from DevOps, Cloud Engineering, Software Development, and
+              other similar programs swap in the required class for their
+              curriculum needs.
+            </p>
+            <p>
+              This design is custom-made for Generation, including art assets,
+              design principles, and well-documented lesson plans to ensure all
+              instructors can conduct Linux in their curriculum.
+            </p>
+            <p>
+              We ensure the success of this program with our team leader James
+              Belchamber, our BSM(Behavior skill Mindset), Elise Guimaraes, and
+              intern Ted Logan.
+            </p>
+          </div>
+          <button
+            onclick="window.location.href='//uk.generation.org/london/aws-restart/';"
+            class="btn_one"
+          >
+            Visit Project AWS-restart
+          </button>
+        </div>
+
+        <div class="project">
+          <h2>JWD/JFS Software Development</h2>
+          <div>
+            <p>
+              Help build extra curriculum for the current JWD(Junior web
+              Developer) & JFS(Java Full Stack) programs by making Quizizz, an
+              online tool to help make tests, and many Github repositories that
+              give more activities for the students like:
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>Github</li>
+              <li>Git</li>
+              <li>Etc</li>
+            </ul>
+            <p>
+              This extra curriculum was designed by I (Lazaro), Anderson, and
+              Zoe to help students have more projects under their belt and give
+              them more experience.
+            </p>
+          </div>
+          <button
+            onclick="window.location.href='//github.com/LazaroAlsina/JWD-JFS-Collection';"
+            class="btn_one"
+          >
+            Visit Project JWD-JFS Collection on Github
+          </button>
+          <button
+            onclick="window.location.href='//github.com/LazaroAlsina/JWD-Final-Project';"
+            class="btn_two"
+          >
+            Visit Project JWD-Final-Project on Github
+          </button>
+          <button
+            onclick="window.location.href='//quizizz.com/collection/63926179551a5f001e38c5a8?source=collection_share';"
+            class="btn_one"
+          >
+            Visit Project Quiziz for Lesson plans and tests
+          </button>
+          <button
+            onclick="window.location.href='//github.com/LazaroAlsina/GitHub_Activity';"
+            class="btn_two"
+          >
+            Visit Project GitHub_Activity on Github
+          </button>
+        </div>
+      </div>
+
+      <div id="contact">
+        <h1>Contact.</h1>
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required /><br />
+          <textarea placeholder="Your message" required rows="5"></textarea
+          ><br />
+          <button class="btn_one">Send</button>
+        </form>
+        <div id="details">
+          <a
+            class="btn_social"
+            href="https://www.linkedin.com/in/lazaroalsina/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            class="btn_social"
+            href="https://github.com/LazaroAlsina"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="btn_social"
+            href="https://www.google.com/search?q=Lazaro Alsina jr linkedin"
+            target="_blank"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a href="https://www.linkedin.com/groups/14062247/" target="_blank"
+            ><img id="badger" src="./badger.jpg" alt="spacy badger"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <br />
+      Made on earth by a Honey Badger <br /><br />
+      <a href="https://www.linkedin.com/groups/14062247/">Spacy Badgers</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
